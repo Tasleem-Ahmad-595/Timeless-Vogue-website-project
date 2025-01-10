@@ -1,0 +1,221 @@
+html{scroll-behavior: smooth;}
+* {
+    margin: 0px;  
+}
+main{
+    padding-top: 50px;
+    background-color: rgb(133, 133, 133);
+    
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    padding: 6px 0;
+    
+}
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: rgb(229, 228, 228);
+}
+.header a:hover {
+    transform: scale(1.15);
+    text-decoration: underline;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 50px;
+    gap: 40px;
+    color: rgb(157, 157, 157);
+    
+}
+.header h1 {
+    margin-right: auto; 
+    font-size: 30px;
+}
+
+
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    align-items: center;
+}
+.email input {
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.email button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 25px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #6eadaf;
+}
+.email button:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.10);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+footer p {
+    margin: 10px 0;
+}
+  
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  
+footer a:hover {
+    text-decoration: underline;
+}
+  
+  /* Responsive Design */
+@media (max-width: 768px) 
+{
+    footer p {
+      font-size: 14px;
+    }
+  
+    footer a {
+      margin: 0 5px;
+    }
+}
+
+
+
+#product-gallery {
+    padding: 120px 70px;
+    background-color: #c8c8c8; 
+}
+
+
+#product-gallery h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #00685f;
+}
+
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px; 
+    padding: 0 20px;
+    
+}
+
+.product-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 2px solid #eaeaea; 
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+
+.product-item img {
+    width: 200;
+    height: 150;
+    max-width: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.product-item a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #006250; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item:hover a {
+    color: #00c3bd;
+}
+
+.product-item:hover img {
+    transform: scale(1.05); 
+}
+section {
+    padding: 7px;
+
+}
+#rolex {
+    margin-top: 0px;
+}
+
+section h1 {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 30px; 
+    margin-bottom: 20px;
+    color: #8fd1c7;
+    font-size: 30px;
+}
+
+
+#products-gallery {
+    text-align: center;    
+    padding: 20px;   
+    background-color: #263236;
+}
+
+#products-gallery h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #c6c6c6;
+    margin-bottom: 0px;
+    margin-top: 130px;
+}
+
+#products-gallery p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #73c6b9;
+}

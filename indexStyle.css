@@ -1,0 +1,326 @@
+
+html{scroll-behavior: smooth;}
+* {
+    margin: 0px;  
+}
+main{
+    padding-top: 40px;
+    background-color: #2a3e3f;
+    
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #2f2f2f;
+    z-index: 1000;
+
+}
+.header h1{
+color: #bdbdbd;
+}
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #d1d1d1;   
+}
+.header a:hover {
+    transform: scale(1.15);
+    text-decoration: none;
+   color:  #36697a;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 50px;
+    gap: 40px;
+    color: whitesmoke;
+}
+.header h1 {
+    margin-right: auto; 
+    font-size: 30px;
+}
+
+.orderTable {
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #969696; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.orderTable table {
+    border-spacing: 15px;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+.orderTable img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.heading {
+    width: 350px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.orderTable td {
+    width: 350px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.brandHeading{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(212, 212, 212);
+   
+    border-radius: 2px;
+    
+}
+#BRAND{
+    scroll-margin-top: 90px;
+    
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    border-radius: 10px;
+    
+}
+.brand img{
+    height: 300px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.brand div{
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(181, 181, 181);
+    width: 250px;
+    transition: all 0.2s ease;
+    border-radius: 15px 15px;
+  
+}
+.brand div:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 10px 18px  rgb(0, 0, 0);
+}
+.brand a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(21, 21, 21);
+}
+.bestsellers {
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    border-radius: 10px;
+   
+}
+#BEST{
+    scroll-margin-top: 65px;
+    
+}
+
+
+.bestsellers img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #b4b3b3;
+    
+}
+.bestsellers img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+.bestsellers  a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #c3c3c3;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.bestsellers  a:hover {
+    color: #ffffff;
+    transform:scale(1.05) ; 
+}
+.bestsellers table {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-spacing: 30px;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+.bestsellers td {
+    font-size: 25px;
+}
+.bestsellers h1{
+    color: #bbbbbb;
+}
+
+.faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faqs div{
+    width: 70%;
+    padding: 20px 30px;
+}
+.faqs div p{
+    padding-top: 8px;
+}
+#FAQs{
+    scroll-margin-top: 110px;
+    color: #bbbbbb;
+}
+.faqs h1{
+    padding-bottom: 20px;
+}
+.color1{
+    background-color: rgb(232, 233, 233);
+}
+.color2{
+    background-color: rgb(179, 179, 179);
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    align-items: center;
+    color: #bbbbbb;
+}
+.email input {
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #323232;
+    background-color: #b4b3b3;
+}
+.email button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color:  #6eadaf;
+}
+.email button:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.10);
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+footer p {
+    margin: 10px 0;
+}
+  
+footer a {
+    color: #6eadaf;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  
+footer a:hover {
+    text-decoration: underline;
+}
+  
+  /* Responsive Design */
+@media (max-width: 768px) 
+{
+    footer p {
+      font-size: 14px;
+    }
+  
+    footer a {
+      margin: 0 5px;
+    }
+}
+/* Container for video */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 140vh; 
+    overflow: hidden;
+}
+
+/* Style for the video */
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 80px;
+    
+}
+
+/* Overlay text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(218, 218, 218);
+    text-align: center;
+    z-index: 1; /* Make sure text appears over video */
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
