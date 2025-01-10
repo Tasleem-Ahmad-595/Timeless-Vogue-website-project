@@ -21,3 +21,5 @@ CSS: Styled with advanced techniques, including hover effects and responsiveness
 JavaScript: Enhanced interactivity with validations, alerts, and dynamic elements.
 
 This project reflects my passion for web development and the application of foundational skills to create a visually appealing and functional e-commerce platform. 🌟
+
+You can go to the websites HOME PAGE by clicking on 'index.html' file.
